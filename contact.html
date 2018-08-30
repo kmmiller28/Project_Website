@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- Contact Us -->
+<!-- Crystal Owens -->
+
+
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Contact Us</title>
+
+    <style type="text/css">
+
+        body {
+            background-color: maroon;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+
+
+
+        /*button link for Home page */
+
+        a.button {
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 1px 6px;
+            font: 13.3333px Arial;
+            text-rendering: auto;
+            text-align: center;
+            text-transform: none;
+            text-decoration: none;
+            text-indent: 0;
+            text-shadow: none;
+            letter-spacing: normal;
+            word-spacing: normal;
+            color: buttontext;
+            border: 2px outset buttonface;
+            border-image: initial;
+            background-color: buttonface;
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            cursor: default;
+        }
+
+
+
+            a.button:active {
+                border-style: inset;
+            }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Contact Us</h1>
+
+    <p>Please fill out this form to find out more information about us; or just to let us know how we are doing!</p>
+
+    <form method="post" autocomplete="on">
+
+        <p>
+            <label>
+                First Name:
+
+                <input type="text" id="firstName" required placeholder="First name" />
+
+            </label>
+        </p>
+
+
+
+        <p>
+            <label>
+                Last Name:
+
+                <input type="text" id="lastName" required placeholder="Last name" />
+
+            </label>
+        </p>
+
+
+
+        <p>
+            <label>
+                Email:
+
+                <input type="email" id="email" required placeholder="name@domain.com" />
+
+            </label>
+        </p>
+
+        <p><label>Comments/Questions:</label></p>
+
+        <textarea id="comments" rows="15" cols="36" placeholder="Enter comments here"></textarea>
+
+        <p style>
+            <input type="submit" value="Submit" />
+
+            <input type="reset" value="Clear">
+        </p>
+
+
+
+        <a href="index.html" class="button">Home</a>
+
+
+
+    </form>
+
+</body>
+
+</html>
